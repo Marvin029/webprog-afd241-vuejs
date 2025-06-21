@@ -1,38 +1,24 @@
 #app2 > div {
-    border: none;
-    width: 100%;
-    padding: 20px;
+    border: solid black 1px;
+    width: 80%;
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-around;
   }
-  
+
   figure {
-    width: 120px;
-    padding: 15px;
+    width: 80px;
+    padding: 10px;
     margin: 10px;
-    background-color: #e3f2fd;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: lightskyblue;
+    border-radius: 5px;
   }
-  
-  figure:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
-  }
-  
+
   figcaption {
     text-align: center;
-    margin-top: 8px;
-    font-weight: 600;
-    font-size: 0.9rem;
   }
   
   img {
     width: 100%;
-    border-radius: 8px;
-    object-fit: cover;
   }
-  
