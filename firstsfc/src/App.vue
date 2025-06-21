@@ -3,6 +3,8 @@ import { ref, onMounted } from 'vue'
 import { supabase } from './lib/supabaseClient'
 import FoodItem from './components/FoodItem.vue'
 import FoodItem2 from './components/FoodItem2.vue'
+import CommentForm from './components/CommentForm.vue'
+import Comment from './components/Comment.vue'
 
 const instruments = ref([])
 
@@ -37,4 +39,8 @@ onMounted(() => {
       {{ instrument.name }}
     </li>
   </ul>
+
+  <h2>Comments</h2>
+  <CommentForm />
+  <Comment />
 </template>
